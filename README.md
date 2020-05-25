@@ -4,9 +4,9 @@
 
 This project is a fork of [rx5808-pro](https://code.google.com/p/rx5808-pro/) with support for diversity and much more.
 
+THIS IS NOT WHAT THIS IS!
 Manufactured version of this project can be found at [La Forge FPV](http://www.laforgefpv.com)
 
-The code is also backward compatible with the original rx5808-pro schematic minus diversity, dip switch mode and TV_Out. For details on updating click [here](/docs/diy-arduino-nano.md).
 
 # Table of Contents
 1. [Releases](#releases)
@@ -19,19 +19,18 @@ The code is also backward compatible with the original rx5808-pro schematic minu
 
 
 # Releases
-The latest release can be found here. [Latest Releases](https://github.com/sheaivey/rx5808-pro-diversity/releases)
+The latest release can be found here. [Latest Releases](hold)
 
 # Features
 - **User control** - 3 Button navigation, up, down, select.
 - **Manual Mode** - Set channel manual
 - **Search Mode** - Search next channel based on RSSI
-- **Band Scanner** - Print spectrum of all 48 channels
-- **Auto Save** - Saves settings after a few seconds of inactivity.
+- **Band Scanner** - Print spectrum of all 9 channels
+- **Auto Save** - Saves settings after a few seconds of inactivity.(not currently working)
 - **Beeper** - Acoustic feedback on important actions
 - **RSSI Graph** - Running history of RSSI readings.
 - **Diversity** - Receiver select and monitor.
 - **Led Status** - Power, button pressed, active antenna.
-- **Race Band & L-Band** - Total of 48 supported channels.
 - **Backward Compatibility** - Use this code with your existing setup.
 - **OLED Display** - Use a 128x64 OLED.
 - **Setup Menu** - Creating changing settings (RSSI Calibration).
@@ -57,19 +56,12 @@ When powering on for the first time it is best to calibrate your RSSI modules. N
 
 # Hardware
 #### Manufactured
-If you are not looking to build your own hardware you can purchase manufactured versions from the following companies.
+If you are not looking to build your own hardware you can purchase manufactured versions coming soon.
 
-1. **[La Forge FPV](http://www.laforgefpv.com/vrx-pro)** - VRX-PRO
-  - Designed by Shea Ivey
-  - All Current Hardware versions.
-2. Realacc - rx5808-pro-diversity
-  - All current hardware versions.
-3. FuriousFPV - True-D
-  - V2.0 and earlier
 
 #### DIY
 
-This project is centered around the RX5808 5.8GHz receiver module which can be found at a number of online stores. The original rx5808-pro schematic has been modified to incorporate the diversity setup. Additional LEDs have also been added to show the active receiver.
+This project is centered around the partom 1.3GHz receiver module which can be found at a number of online stores. The original rx1300-pro schematic has been modified to incorporate the i2c setup. Additional LEDs have also been added to show the active receiver.
 
 ![diversity simple schematic](docs/img/rx5808-pro-diversity-schematic-simple.jpg)
 
@@ -93,19 +85,14 @@ Please follow [CONTRIBUTING.md](CONTRIBUTING.md) for standard practices regardin
 
 
 ## Recognition
-- SPI driver based on fs_skyrf_58g-main.c Written by Simon Chambers
-- TVOUT by Myles Metzel
 - Scanner by Johann Hermen (der-Frickler.net)
 - Initial 2 Button version by Peter (pete1990)
 - Refactored and GUI reworked by Marko Hoepken
 - Universal version my Marko Hoepken
 - Diversity Receiver Board and GUI improvements by Shea Ivey
-- Adding Race Band by Shea Ivey
-- Separating Display concerns for TVOut and OLED by Shea Ivey
 - Adding Setup Menu by Shea Ivey
-- DIY Throughole board and documentation. by RCDaddy
 - Voltage monitoring by kabturek
-- v2.0 Firmware Overhaul by @Knifa
+
 
 # License
 ## Code
