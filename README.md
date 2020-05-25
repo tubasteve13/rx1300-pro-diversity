@@ -1,6 +1,5 @@
-# ![Logo](media/logo.png)
+# ![Logo](logo.png)
 
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/rx5808-pro-diversity/)
 
 This project is a fork of [rx5808-pro](https://code.google.com/p/rx5808-pro/) with support for diversity and much more.
 
